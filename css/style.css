@@ -1,0 +1,484 @@
+/* font-family: 'Great Vibes', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+html{
+    font-size: 16px;
+}
+.inner{
+    max-width: 1200px;
+    padding: 5% 0;
+    margin: 0 auto;
+    position: relative;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar{
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+}
+.navbar .navlogo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #c59d6f;
+    text-decoration: underline;
+}
+.navbar .navlogo:hover{
+    color: #000000;
+    cursor: pointer;
+}
+.navbar #click{
+    display: none;
+}
+.menu-btn i{
+    font-size: 1.3rem;
+    display: none;
+}
+.menu-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+}
+.menu-links li{
+    list-style: none;
+    margin: 5px;
+}
+.menu-links li a{
+    text-decoration: none;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+.menu-links li a:hover,.menu-links .active {
+    background-color: #c59d5f;
+    color: #fff;
+}
+/* headera area starts here */
+.big-wrapper{
+    top: 11vh;
+    height: 90vh;
+    width: 100%;
+    background-image: url("../images//banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+.big-wrapper .intro{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15%;
+}
+.intro h1{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
+    color: #c59d5f;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro h2{
+    font-size: 2.5rem;
+    letter-spacing: 10px;
+}
+.intro hr{
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+}
+.intro p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.intro button{
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 0.9rem;
+    font-family: 'Rubik',sans-serif;
+    letter-spacing: 1px;
+    outline: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.intro button:hover{
+    background-color: #c59d5f;
+    color: #fff;
+}
+/* header area ends here */
+/* discover area starts here */
+.discover,.discover-1{
+    width: 48%;
+    padding: 5% 0;
+    text-align: center;
+}
+.discover h1{
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    color: #c59d5f;
+    margin-top: 12%;
+    font-weight: 100;
+}
+.discover h2{
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+}
+.floral{
+    width: 3%;
+    margin: 1.2rem 0;
+}
+.discover p{
+    font-size: 0.9rem;
+    color: grey;
+    padding: 0 10%;
+    line-height: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.discover a{
+    font-size: 1rem;
+    color: #c59d5f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1.4rem;
+}
+.discover-1 img{
+    width: 100%;
+} 
+/* discover area ends here */
+/* taste highligh area starts here */
+.taste{
+    width: 100%;
+    padding: 10% 0;
+    background-image: url("../images/tasteful-recipes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+.taste h1{
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    color: #c59d5f;
+    font-weight: 100;
+}
+.taste h2{
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+/* taste highligh area ends here */
+/* menu area starts here */
+.menu,.menu-1{
+    width: 48%;
+    text-align: center;
+}
+.menu-1 img{
+    width: 48%;
+    float: left;
+    margin-bottom: 1rem;
+}
+.menu-1 .img-right{
+    float: right;
+}
+.menu h1{
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    color: #c59d5f;
+    margin-top: 12%;
+    font-weight: 100;
+}
+.menu h2{
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+}
+.menu img{
+    width: 3%;
+    margin: 1.2rem 0;
+}
+.menu p{
+    font-size: 0.9rem;
+    color: grey;
+    padding: 0 10%;
+    line-height: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.menu a{
+    font-size: 1rem;
+    color: #c59d5f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1.4rem;
+}
+/* menu area ends here */
+/* perfect blend area starts here */
+.full-width{
+    width: 100%;
+    background-image: url("../images/perfect-blend.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10% 0;
+    text-align: center;
+}
+.full-width h1{
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    color: #c59d5f;
+    font-weight: 100;
+}
+.full-width h2{
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+/* perfect blend area ends here */
+/* Make a reservation area starts here */
+.delight,.delight-1{
+    width: 48%;
+    text-align: center;
+}
+.delight-1 img{
+    width: 48%;
+    float: left;
+    margin-bottom: 1rem;
+}
+.delight-1 .img-right{
+    float: right;
+}
+.delight h1{
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+    color: #c59d5f;
+    margin-top: 12%;
+    font-weight: 100;
+}
+.delight h2{
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+}
+.delight img{
+    width: 3%;
+    margin: 1.2rem 0;
+}
+.delight p{
+    font-size: 0.9rem;
+    color: grey;
+    padding: 0 10%;
+    line-height: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.delight a{
+    font-size: 1rem;
+    color: #c59d5f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1.4rem;
+}
+/* Make a reservation area ends here */
+/* footer area starts here */
+footer{
+    width: 100%;
+    padding: 4%;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    background-color: black;
+}
+footer h3{
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+footer p{
+    font-size: 1rem;
+    padding: 0 30%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+.social-icons i{
+    font-size: 1.2rem;
+    padding: 10px 12px;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.social-icons i:hover{
+    color: #c59d5f;
+}
+.newsletter{
+    position: relative;
+}
+.newsletter .my-newsletter{
+    width: 30%;
+    height: 40px;
+    margin-top: 1rem;
+    padding: 0 10px;
+    border: 0;
+    outline: none;
+}
+::placeholder{
+    padding: 5px 20px 5px 20px;
+    font-size: 0.9rem;
+}
+.newsletter .fas {
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    position: absolute;
+    top: 43%;
+    left: 62%;
+}
+/* footer area ends here */
+
+@media only screen and (max-width: 1354px){
+    .menu-links {
+        width: 60%;
+    }
+    .menu-links li a{
+        font-size: 0.7rem;
+        padding: 8px 10px;
+    }
+}
+@media only screen and (max-width: 992px){ 
+    .menu-links {
+        position: fixed;
+        top: 11vh;
+        right: -100%;
+        flex-direction: column;
+        width: 50%;
+        height: 90vh;
+        color: #1b1b1b;
+        align-content: center;
+        justify-content: space-around;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+        background-color: rgb(255, 255, 255);
+    }
+    .menu-links li a{
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding: 0;
+        letter-spacing: 2px;
+    }
+    .menu-links li a:hover,.menu-links .active {
+        background: none;
+        color: #c59d5f;
+    }
+    .menu-btn i{
+        display: block;
+        cursor: pointer;
+        font-size: 1.7rem;
+        color: #c59d6f;
+    }
+    #click:checked ~.menu-links{
+        right: 0%;
+    }
+    #click:checked ~ .menu-btn i::before{
+        content: "\f00d";
+    }
+}
+@media only screen and (max-width: 850px){
+    .big-wrapper .intro {
+        padding-top: 35%;
+    }
+    .discover h1, .menu h1 ,.delight h1{
+        margin-top: 0;
+        font-size: 3rem;
+    }
+    .discover h2, .menu h2 , .delight h2{
+        font-size: 1.5rem;
+    }
+    .discover .floral, .menu .floral , .delight .floral{
+        margin: 0.2rem 0;
+    }
+    .discover p, .menu p , .menu h2{
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+    .discover a, .discover p, .discover h2{
+        font-size: 0.9rem;
+        margin-top: 0;
+    }
+    .newsletter .my-newsletter{
+        width: 75%;
+    }
+    .newsletter .fas {
+        right: 5%;
+    }
+}
+@media only screen and (max-width:600px){
+    .discover,.discover-1,.menu,.menu-1,.delight,.delight-1{
+        width: 90%;
+        margin: 0 auto;
+        padding: 5%;
+    }
+}
+@media only screen and (max-width:450px){
+    .big-wrapper .intro {
+        padding-top: 58%;
+    }
+    .menu-links{
+        height: 80vh;
+    }
+    .menu-links li a{
+        font-size: 0.9rem;
+    }
+    footer {
+        padding: 10% 0;
+    }
+    footer p{
+        padding: 0 8%;
+        text-align: justify;
+    }
+    footer h3{
+        margin-bottom: 1rem;
+    }
+    .newsletter .my-newsletter{
+        width: 75%;
+    }
+    .newsletter .fas {
+        right: 5%;
+    }
+}
